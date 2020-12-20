@@ -6,4 +6,9 @@ fork form https://github.com/rancher/local-path-provisioner
 
 ```
 kubectl apply -f https://raw.githubusercontent.com/Dbraum/k8s-yaml/master/local-storage/local-path-storage.yaml
+
+
+kubectl apply -f https://raw.githubusercontent.com/Dbraum/k8s-yaml/master/local-storage/example/pvc.yaml
+
+kubectl apply -f https://raw.githubusercontent.com/Dbraum/k8s-yaml/master/local-storage/example/pod.yaml
 ```
